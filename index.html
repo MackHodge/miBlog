@@ -5,7 +5,7 @@
 
 	<style>
 #wrapper{
-overflow-y: :scroll;
+/*overflow-y: :auto;*/
 }
 
 	.Bevel{
@@ -28,14 +28,16 @@ overflow-y: :scroll;
 }
 .articleShow{
 
-	background-color: grey; 
-height: 780 ; 
-width: 25% ;
-	overflow-y: scroll;
-	margin: 10;
+	background-color: rgba(200,255,255,0.4); 
+	height: 780 ; 
+	width: 20em ;
+	/*overflow-y: scroll;*/
+	overflow-x: hidden;
+	margin: 0 auto;
 	padding: 10;
 	clear: left; 
 	float: left; 
+
 
 
 }
@@ -98,12 +100,11 @@ color:white;
 
 	header, footer {
 		padding: 0.1px; 
-
 		color: white ;
 		background-color: black ; 
 		clear: left;
 		text-align: left; ;
-	font-family: supremeFont; 
+		font-family: supremeFont; 
 		src: url(futura_std_heavy_oblique.otf);
 
 	} 
@@ -121,10 +122,10 @@ div{
 	//background-color: 	#ae0606;
 	}
 	nav ul {
-	list-style-type: none;
+		list-style-type: none;
 		padding: 0 ;
 		margin: 0;
-text-align: right;
+		text-align: right;
 		font-family: supremeFont;
 
 	}
@@ -164,17 +165,19 @@ nav ul li{
 	</nav>
 	</header>
 
-<div id="wrapper">
-	<div class="articleShow"> 
+	
+<div style= "overflow-x: hidden; overflow-y: scroll; height: 520px; width: 24.5%; "  id="wrapper">
+	<div class="articleShow" > 
 			<article>
 				<h3><a href="#"> Article 1 #</a> </h3>
 				<p>Font idea: classy Luxury fonts vb R o l e x </p>
 				<h3><a href="#"> Article 2 #</a> </h3>
 				<p>Font idea: classy Luxury fonts vb R o l e x </p>
-
 				<h3><a href="#"> Article 3 #</a> </h3>
 				<p>Font idea: classy Luxury fonts vb R o l e x </p>
 					<h3><a href="#"> Article 3 #</a> </h3>
+
+
 				<p>Minubia
 “Make lives easier by providing good mobile solutions”
 Minubia is a provider of Enterprise Mobile Solutions. We envision a future where everything is mobile and everybody is connected all the time.
